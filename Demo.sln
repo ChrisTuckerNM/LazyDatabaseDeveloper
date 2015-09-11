@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Root", "Root\Root.sqlproj", "{814CA7B4-2A77-430C-BB99-31F9ACA908DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DacTools", "DacTools\DacTools.csproj", "{2BB2854D-1031-4E53-ABBF-666DBF3EC213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DacToolsTests", "DacToolsTests\DacToolsTests.csproj", "{2ED10A9A-BA47-41C9-B85D-0ADB299EC808}"
+	ProjectSection(ProjectDependencies) = postProject
+		{814CA7B4-2A77-430C-BB99-31F9ACA908DF} = {814CA7B4-2A77-430C-BB99-31F9ACA908DF}
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DacToolsDB", "DacToolsDB\DacToolsDB.sqlproj", "{DBC2A5AA-AE2E-4825-BA3B-CDE529744AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{814CA7B4-2A77-430C-BB99-31F9ACA908DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814CA7B4-2A77-430C-BB99-31F9ACA908DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814CA7B4-2A77-430C-BB99-31F9ACA908DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{814CA7B4-2A77-430C-BB99-31F9ACA908DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814CA7B4-2A77-430C-BB99-31F9ACA908DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814CA7B4-2A77-430C-BB99-31F9ACA908DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2BB2854D-1031-4E53-ABBF-666DBF3EC213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB2854D-1031-4E53-ABBF-666DBF3EC213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB2854D-1031-4E53-ABBF-666DBF3EC213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB2854D-1031-4E53-ABBF-666DBF3EC213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED10A9A-BA47-41C9-B85D-0ADB299EC808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED10A9A-BA47-41C9-B85D-0ADB299EC808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED10A9A-BA47-41C9-B85D-0ADB299EC808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED10A9A-BA47-41C9-B85D-0ADB299EC808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC2A5AA-AE2E-4825-BA3B-CDE529744AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC2A5AA-AE2E-4825-BA3B-CDE529744AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC2A5AA-AE2E-4825-BA3B-CDE529744AFB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DBC2A5AA-AE2E-4825-BA3B-CDE529744AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC2A5AA-AE2E-4825-BA3B-CDE529744AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC2A5AA-AE2E-4825-BA3B-CDE529744AFB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://christuckernm.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Root\\Root.sqlproj
+		SccProjectName1 = Root
+		SccLocalPath1 = Root
+		SccProjectUniqueName2 = DacTools\\DacTools.csproj
+		SccProjectName2 = DacTools
+		SccLocalPath2 = DacTools
+		SccProjectUniqueName3 = DacToolsTests\\DacToolsTests.csproj
+		SccProjectName3 = DacToolsTests
+		SccLocalPath3 = DacToolsTests
+		SccProjectUniqueName4 = DacToolsDB\\DacToolsDB.sqlproj
+		SccProjectName4 = DacToolsDB
+		SccLocalPath4 = DacToolsDB
+	EndGlobalSection
+EndGlobal
